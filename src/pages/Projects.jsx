@@ -2,29 +2,29 @@ import React from "react";
 import { FaRegEye } from "react-icons/fa";
 import ecommerce_image from "../assets/ecommerce.jpg";
 import gmail_image from "../assets/gmail.jpg";
-import youtube_image from "../assets/youtube.jpg";
+import twitter_image from "../assets/twitter.jpg";
 const Projects = () => {
   const project = [
     {
       id: 1,
       title: "E-Commerce",
-      category: "Web development",
+      category: "Web Development",
       image: ecommerce_image,
       Link: "https://amazonprojectdeploy.netlify.app",
     },
     {
       id: 2,
-      title: "Gmail",
-      category: "Web development",
+      title: "Gmail Clone",
+      category: "Web Development",
       image: gmail_image,
       Link: "https://gmailweb.netlify.app/",
     },
     {
       id: 3,
-      title: "VideoTube",
-      category: "Web design",
-      image: youtube_image,
-      Link: "https://videotubedeploy.netlify.app",
+      title: "Twitter Clone",
+      category: "FullStack Development",
+      image: twitter_image,
+      Link: "https://github.com/AbhishekAnan00/TwitterClone",
     },
   ];
   return (

@@ -1,10 +1,11 @@
 import React from "react";
-import portfollio_image from "../assets/portfollio_image.jpg";
+import portfollio_image from "../assets/image.png";
 import { GiMayanPyramid, GiPhone } from "react-icons/gi";
 import { SiMinutemailer } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import resume from "../assets/resu.pdf";
 const Sidebar = ({ sidebar }) => {
   return (
     <>
@@ -15,7 +16,7 @@ const Sidebar = ({ sidebar }) => {
               <img
                 src={portfollio_image}
                 alt="Abhishek Anand"
-                width="140"
+                width="120"
                 className="rounded-full"
               />
             </figure>
@@ -29,6 +30,11 @@ const Sidebar = ({ sidebar }) => {
               <p className="bg-gray-600 text-white w-[140px] p-2 rounded-lg text-center mt-3">
                 Web developer
               </p>
+              <a href={resume} download="resume.pdf">
+                <button className="bg-sky-700 hover:bg-sky-800 text-white w-[140px] p-2 font-semibold rounded-lg text-center mt-3">
+                  Resume
+                </button>
+              </a>
             </div>
           </div>
 

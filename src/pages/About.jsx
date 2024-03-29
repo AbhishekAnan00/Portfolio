@@ -66,24 +66,24 @@ const About = () => {
             React.js)
           </p>
           <p className="text-lg mt-2">
-            - Experienced in server-side programming languages such as Node.js
+            - Much Understanding in server-side programming languages such as
+            Node.js
           </p>
           <p className="text-lg mt-2">
-            - Familiar with database management systems like MongoDB, MySQL, and
+            - Familiar with database management systems like MongoDB and
             Firebase.
           </p>
           <p className="text-lg mt-2">
-            - Strong understanding of web development principles, including
-            responsive design, cross-browser compatibility, and accessibility
-            standards.
+            - Understanding of web development, including responsive design,
+            cross-browser compatibility, and accessibility standards.
           </p>
           <p className="text-lg mt-2">
             - Knowledgeable in version control systems (e.g., Git) and
-            deployment platforms (e.g., Vercel , AWS , Netlify)
+            deployment platforms (e.g., Vercel , Netlify)
           </p>
           <p className="text-lg mt-2">
-            - Excellent problem-solving skills and ability to work effectively
-            both independently and in a team environment.
+            - Problem-solving skills and ability to work effectively both
+            independently and in a team environment.
           </p>
         </section>
       </article>
